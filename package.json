@@ -1,0 +1,27 @@
+{
+  "name": "Shrine",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "14.2.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "wagmi": "^2.12.0",
+    "viem": "^2.21.0",
+    "@rainbow-me/rainbowkit": "^2.1.5",
+    "@tanstack/react-query": "^5.51.0",
+    "zustand": "^4.5.4",
+    "tailwindcss": "^3.4.7",
+    "lucide-react": "^0.408.0",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^2.4.0",
+    "@radix-ui/react-dialog": "^1.1.1",
+    "@radix-ui/react-slot": "^1.1.0"
+  }
+}

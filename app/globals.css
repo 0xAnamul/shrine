@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 0 0% 4%;
+  --foreground: 0 0% 93%;
+}
+
+body {
+  @apply bg-ritual-bg text-ritual-fg font-mono antialiased;
+  background-image: radial-gradient(circle, #1a1a1a 1px, transparent 1px);
+  background-size: 24px 24px;
+}
